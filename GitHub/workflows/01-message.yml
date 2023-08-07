@@ -1,0 +1,10 @@
+name: Practice1
+on: [push]
+jobs:
+  Job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hi, Taniya welcome to Linux"
+      - run: pwd
+      - name: Checking github workspace with reserve variable
+        run: ls ${{ github.workspace }}
