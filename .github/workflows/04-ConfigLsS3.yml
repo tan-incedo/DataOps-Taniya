@@ -16,5 +16,5 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Testing AWS S3 to L3
         run: aws s3 ls
-      - name: Copying Local to AWS S3 Bucket
+      - name: Copying Local to AWS S3 Bucket..
         run: aws s3 cp *.txt s3://bkt-taniya-githubactions/     
