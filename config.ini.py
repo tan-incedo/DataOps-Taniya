@@ -7,6 +7,7 @@ config_object = ConfigParser()
 config_object["FILEINFO"] = {
     "Input File": "product_data.csv",
     "Output File": "product_data.parquet",
+    "Command": "python testing.py -i product_data.csv -o product_data.parquet"
 }
 
 
